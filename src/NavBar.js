@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './NavBar.css';
 
-export default function App() {
+export default function NavBar() {
     return (
         <nav class="nav_links">
             <ul>
