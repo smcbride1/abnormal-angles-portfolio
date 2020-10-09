@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from './NavBar.js';
+import Video from "./preview.mp4";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header>
         <NavBar/>
       </header>
+      <video autoPlay loop src={Video}type="video/mp4"/>
     </div>
   );
 }
