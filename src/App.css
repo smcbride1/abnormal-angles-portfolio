@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
   --font-color-light-mode: #4D4D4D;
@@ -19,9 +20,68 @@ header {
   padding: 10px 20px;
 }
 
-video {
-  width: 100%;
-  position: absolute;
+#main-page-reel {
+  position: fixed;
   top: 0;
+  margin-left: 50%; 
+  transform: translate(-50%);
   z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #main-page-reel {
+      width:100%;
+      height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #main-page-reel { 
+      width:auto;
+      height: 100%;
+  }
+}
+
+img.logo{
+  width: 100px;
+  left: 50%;
+}
+
+img.intro-logo {
+  display: block;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 200%;
+}
+
+.wrapper {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+h1 {
+  color: var(--font-color-dark-mode);
+  font-size: 36pt;
+  font-weight: 200;
+}
+
+h2 {
+  color: var(--font-color-dark-mode);
+  font-size: 24pt;
+}
+
+p {
+  font-size: 16pt;
+  color: var(--font-color-dark-mode);
+}
+
+.aa-text {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48pt;
+}
+
+ul.landing_page_links li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--font-color-dark-mode);
 }

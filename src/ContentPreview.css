@@ -1,0 +1,26 @@
+.content-preview {
+    flex: 33.333%;
+}
+
+@media (max-width: 1200px) {
+    .content-preview {
+        flex: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .content-preview {
+        flex: 100%;
+    }
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+}
+
+.content-preview h2 {
+    position: absolute;
+    font-size: 16pt;
+    padding: 10px;
+}

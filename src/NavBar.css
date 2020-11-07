@@ -11,3 +11,7 @@
     font-weight: 600;
     text-decoration: none;
 }
+
+header {
+    background-color: rgba(134, 134, 134, 0.5)
+}

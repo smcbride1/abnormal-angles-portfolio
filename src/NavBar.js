@@ -6,13 +6,7 @@ export default function NavBar() {
         <nav class="nav_links">
             <ul>
                 <li>
-                    <a href="/work">PHOTOGRAPHY</a>
-                </li>
-                <li>
-                    <a href="/videography">VIDEOGRAPHY</a>
-                </li>
-                <li>
-                    <a href="/content-creation">CONTENT CREATION</a>
+                    <a href="/work">WORK</a>
                 </li>
                 <li>
                     <a href="/about">ABOUT</a>
