@@ -1,5 +1,7 @@
 .content-preview {
     flex: 33.333%;
+    margin-bottom: -4px;
+    padding: 5px;
 }
 
 @media (max-width: 1200px) {
