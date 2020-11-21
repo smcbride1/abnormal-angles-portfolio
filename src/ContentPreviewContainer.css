@@ -2,8 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: rgba(134, 134, 134, 0.5);
-    backdrop-filter: blur(50px);
     padding: 5px;
 }
 

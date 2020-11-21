@@ -13,7 +13,7 @@ import GraciesValentines2020Thumbnail from './media/videos/thumbnails/gracies-va
 export default function ContentPreviewContainer() {
     return (
         <>
-            <div className="content-preview-container">
+            <div className="content-preview-container glass-effect">
                 <ContentPreview title="No Filter - MYNDOFMY" thumbnail={NoFilterThumbnail}/>
                 <ContentPreview title="Broadway Bistro - Food Video" thumbnail={BroadwayBistroFoodHighlight1Thumbnail}/>
                 <ContentPreview title="Therapy - Mary Gibson" thumbnail={TherapyThumbnail}/>
